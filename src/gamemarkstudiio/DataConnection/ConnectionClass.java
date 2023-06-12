@@ -19,12 +19,13 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import javax.swing.JOptionPane;
-
-/**
+//import com.mysql.cj.jdbc.Driver;
+/*
  * This class is written for establishing connection between database and java code
  * @version 1.10 25 Aug 2017
  * @author Hamza Yasin
  */
+
 
 public class ConnectionClass {
     private static final String URL = "jdbc:mysql://localhost:3306/gms";
